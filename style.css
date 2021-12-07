@@ -301,4 +301,8 @@ aside p {
     object-fit: cover;
 }
 
-
+#home {
+    background-image: url(images/main-bg.jpg), linear-gradient(#c9ffbf, #ffafbd);
+    min-height: 100vh;
+    background-blend-mode: luminosity;
+}

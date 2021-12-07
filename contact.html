@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>WCB Cafe - CONTACT</title>
+    <meta name="description" content="ブレンドコーヒーとヘルシーなオーガニックフードを提供するカフェ">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!--リセットCSS、google font、CSS-->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
+
+    <link href="style.css" rel="stylesheet">
+    <!--favicon-->
+    <link rel="icon" type="image.png" href="images/favicon.png">
+
+    <!--cssファイルの方だとなんかできないからこっちに入れた↓-->
+    <style>
+        #home {
+            background-image: url(images/main-bg.jpg), linear-gradient(#c9ffbf, #ffafbd);
+            min-height: 100vh;
+            background-blend-mode: luminosity;
+        }
+
+        #menu {
+            background-image: url(images/menu-bg.jpg);
+            min-height: 100vh;
+        }
+    </style>
+
+</head>
+
+
+<body>
+    <div id="contact" class="big-bg">
+        <header class="page-header wrapper">
+            <h1><a href="index.html"><img class="logo" src="images/logo.svg" alt="WCBカフェホーム"></a> </h1>
+            <nav>
+                <ul class="main-nav">
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="wrapper">
+            <h2 class="page-title">Contact</h2>
+            <form action="#">
+                <div>
+                    <label for="name">お名前</label>
+                    <input type="text" id="name" name="yur-name">
+                </div>
+                <div>
+                    <label for="email">メールアドレス</label>
+                    <input type="email" id="email" name="yur-email">
+                </div>
+                <div>
+                    <label for="masseage">メッセージ</label>
+                    <textarea id="massage" name="yur-massage"></textarea>
+                </div>
+
+                <input type="submit" class="button" value="送信">
+            </form>
+
+        </div>
+
+
+        <footer>
+            <div class="wrapper">
+                <p><small>&copy; 2021 yutabox</small></p>
+            </div>
+        </footer>
+</body>
+
+
+</html>
